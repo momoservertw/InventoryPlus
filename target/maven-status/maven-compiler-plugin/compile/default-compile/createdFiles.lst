@@ -1,0 +1,15 @@
+tw\momocraft\inventoryplus\utils\InventoryUtils.class
+tw\momocraft\inventoryplus\utils\TabComplete.class
+tw\momocraft\inventoryplus\utils\ConfigPath.class
+tw\momocraft\inventoryplus\handlers\ServerHandler.class
+tw\momocraft\inventoryplus\utils\Logger.class
+tw\momocraft\inventoryplus\handlers\RegisterHandler.class
+tw\momocraft\inventoryplus\utils\Language.class
+tw\momocraft\inventoryplus\handlers\PermissionsHandler.class
+tw\momocraft\inventoryplus\handlers\ConfigHandler.class
+tw\momocraft\inventoryplus\utils\Utils.class
+tw\momocraft\inventoryplus\Commands.class
+tw\momocraft\inventoryplus\handlers\PlayerHandler.class
+tw\momocraft\inventoryplus\utils\Zip.class
+tw\momocraft\inventoryplus\InventoryPlus.class
+tw\momocraft\inventoryplus\handlers\UpdateHandler.class

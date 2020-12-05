@@ -1,0 +1,85 @@
+# ░░░░░░░░░░░░░░░   InventoryPlus, By Momocraft♥   ░░░░░░░░░░░░░░░
+#  Spigot: https://www.spigotmc.org/resources/lotteryplus.85995/
+#  Wiki: https://github.com/momoservertw/InventoryPlus/wiki
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Config-Version: 1
+Check-Updates: true
+Debugging: false
+
+Player:
+  Enable: true
+  Settings:
+    Log:
+      Enable: true
+      New-File: false
+      To-Zip: true
+  Clean:
+    Enable: true
+    Settings:
+      Log: true
+    Groups:
+      Hotbar:
+        Enable: true
+        Slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+      Equipment:
+        Enable: true
+        Slots:
+          - HEAD
+          - CHEST
+          - LEGS
+          - FEET
+          - OFF_HAND
+      Crafting:
+        Enable: true
+        Slots:
+          - CRAFTING[1]
+          - CRAFTING[2]
+          - CRAFTING[3]
+          - CRAFTING[4]
+  TakeOff:
+    Enable: true
+    Settings:
+      Log: true
+    Groups: [ ]
+
+Message:
+  prefix: "&f[&eInventoryPlus&f] &r"
+  noPermission: "&cYou do not have permission to use that command!"
+  configReload: "&aConfiguration(s) Reloaded!"
+  unknownCommand: "&cUnknown command, See &e/InventoryPlus help &cfor a list of commands."
+  targetNotFound: "&cThe player %targetplayer% could not be found!"
+  featureDisabled: "&cThe feature is disabled."
+  onlyPlayer: "&cThis command can only executing from player."
+  InventoryPlus:
+    Commands:
+      title: "&8▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩ &dInventoryPlus &8▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩▩"
+      help: "&f/itp help &8- &7This help menu."
+      reload: "&f/itp reload &8- &7Reloads config file."
+      version: "&f/itp version &8- &7Checks the plugin version and updates."
+      clear: "&f/itp clear [false] &8- &7To clear your inventory."
+      clearOther: "&f/itp clear [playerName] [false] &8- &7To clear inventory for the player."
+      cleanSlot: "&f/itp cleanslot [slot] [false] &8- &7To clear the inventory slot."
+      cleanSlotOther: "&f/itp cleanslot [slot] [playerName] [false] &8- &7To clear the inventory slot for the player."
+      takeOff: "&f/itp takeoff [false] &8- &7To take off the equipment."
+      takeOffOther: "&f/itp takeoff [playerName] [false] &8- &7To take off the equipment for the player."
+      takeOffSlot: "&f/itp takeoffslot [slot] [false] &8- &7To take off the equipment slot."
+      takeOffSlotOther: "&f/itp takeoffslot [slot] [playerName] [false] &8- &7To take off the equipment slot for the player."
+    slotNotFound: "&cThe slot %slot% could not be found!"
+    clearSucceed: "&aSucceed clear your inventory."
+    clearTargetSucceed: "&aSucceed clear %targetplayer% inventory."
+    cleanSlotSucceed: "&aSucceed clean the slot %slot%."
+    cleanSlotTargetSucceed: "&aSucceed clean the slot %slot% for %targetplayer%."
+    takeOffSucceed: "&aSucceed take off your equipment."
+    takeOffTargetSucceed: "&aSucceed take off %targetplayer% inventory."
+    takeOffSlotSucceed: "&aSucceed take off the equipment %slot%."
+    takeOffSlotTargetSucceed: "&aSucceed take off the equipment %slot% for %targetplayer%."
+    takeOffSlotTargetFailed: "&cFailed take off the equipment %slot% for %targetplayer%."

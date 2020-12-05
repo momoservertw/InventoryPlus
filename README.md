@@ -1,2 +1,2 @@
 # InventoryPlus
-【Minecraft plugin】Clear the inventory slot and remove the device. More features are coming soon...
+【Minecraft plugin】To clean the player inventory or slot by command.

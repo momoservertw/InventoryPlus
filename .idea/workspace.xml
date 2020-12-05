@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db9de2ae-2a97-4e0b-968d-c3ef6fdf69c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tw/momocraft/lotteryplus/utils/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tw/momocraft/lotteryplus/utils/Lottery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tw/momocraft/lotteryplus/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tw/momocraft/lotteryplus/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b6UFVZVPsaZKNbyEvCTRVcJgh0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tw.momocraft.cleanslotplus.utils" />
+      <recent name="tw.momocraft.cleanslotplus.handlers" />
+      <recent name="tw.momocraft.lotteryplus.handlers" />
+      <recent name="tw.momocraft.lotteryplus.listeners" />
+      <recent name="tw.momocraft.lotteryplus.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sayuri\IdeaProjects\LotteryPlus\src\main\java\tw\momocraft\lotteryplus" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db9de2ae-2a97-4e0b-968d-c3ef6fdf69c0" name="Default Changelist" comment="" />
+      <created>1566238716106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566238716106</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="480" y="139" key="#Inspections" timestamp="1604472271612">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="480" y="139" key="#Inspections/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1604472271612" />
+    <state x="659" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1605801725872">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="659" y="166" key="#com.intellij.ide.util.MemberChooser/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1605801725872" />
+    <state x="95" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607197677370">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="95" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607197677370" />
+    <state x="584" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607185351501">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="584" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607185351501" />
+    <state x="634" y="216" key="FileChooserDialogImpl" timestamp="1607185661513">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="634" y="216" key="FileChooserDialogImpl/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607185661513" />
+    <state width="1663" height="129" key="GridCell.Tab.0.bottom" timestamp="1607203510298">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606274354065" />
+    <state width="1663" height="129" key="GridCell.Tab.0.bottom/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607203510298" />
+    <state width="1663" height="189" key="GridCell.Tab.0.bottom/2560.10.1707.920/0.0.1707.920@2560.10.1707.920" timestamp="1605610012014" />
+    <state width="1663" height="129" key="GridCell.Tab.0.center" timestamp="1607203510298">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1237" height="211" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606274354065" />
+    <state width="1663" height="129" key="GridCell.Tab.0.center/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607203510298" />
+    <state width="1663" height="189" key="GridCell.Tab.0.center/2560.10.1707.920/0.0.1707.920@2560.10.1707.920" timestamp="1605610012014" />
+    <state width="1663" height="129" key="GridCell.Tab.0.left" timestamp="1607203510298">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1237" height="211" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606274354061" />
+    <state width="1663" height="129" key="GridCell.Tab.0.left/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607203510298" />
+    <state width="1663" height="189" key="GridCell.Tab.0.left/2560.10.1707.920/0.0.1707.920@2560.10.1707.920" timestamp="1605610012013" />
+    <state width="1663" height="129" key="GridCell.Tab.0.right" timestamp="1607203510298">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1237" height="211" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606274354065" />
+    <state width="1663" height="129" key="GridCell.Tab.0.right/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607203510298" />
+    <state width="1663" height="189" key="GridCell.Tab.0.right/2560.10.1707.920/0.0.1707.920@2560.10.1707.920" timestamp="1605610012014" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1606274348251">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1606274348251" />
+    <state x="326" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1603852864974">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="326" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1603852864974" />
+    <state x="341" y="29" width="1026" height="891" key="find.popup" timestamp="1607203363597">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="341" y="29" width="1026" height="891" key="find.popup/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1607203363597" />
+    <state x="2901" y="39" width="1026" height="891" key="find.popup/2560.10.1707.920/0.0.1707.920@2560.10.1707.920" timestamp="1604480748431" />
+    <state x="445" y="121" key="new project wizard" timestamp="1606648258474">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="445" y="121" key="new project wizard/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1606648258474" />
+    <state x="551" y="206" key="refactoring.ChangeSignatureDialog" timestamp="1604062531792">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="551" y="206" key="refactoring.ChangeSignatureDialog/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1604062531792" />
+    <state x="510" y="211" key="run.anything.popup" timestamp="1603732834433">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="510" y="211" key="run.anything.popup/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1603732834433" />
+    <state x="516" y="195" key="search.everywhere.popup" timestamp="1605799455822">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" key="search.everywhere.popup/2560.10.1707.920/0.0.1707.920@0.0.1707.920" timestamp="1605799455822" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GuardianPlus</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

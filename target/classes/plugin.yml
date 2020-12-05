@@ -1,0 +1,70 @@
+name: InventoryPlus
+main: tw.momocraft.inventoryplus.InventoryPlus
+author: Momocraft
+api-version: 1.13
+version: 1.0.0
+description: Controling inventory.
+softdepend: [ ]
+
+commands:
+  inventoryplus:
+    description: Displays main command menu.
+    permission: inventoryplus.use
+    aliases: [ itp ]
+    usage: |
+      /inventoryplus
+
+permissions:
+  inventoryplus.*:
+    description: Allows use of all commands and feature.
+    default: op
+    children:
+      inventoryplus.use: true
+      InventoryPlus.command.*: true
+  inventoryplus.use:
+    description: Allows use of basic commands.
+    default: true
+  inventoryplus.command.*:
+    description: Allows use all commands.
+    default: op
+    children:
+      inventoryplus.command.reload: true
+      inventoryplus.command.version: true
+      inventoryplus.command.clear: true
+      inventoryplus.command.clear.other: true
+      inventoryplus.command.cleanslot: true
+      inventoryplus.command.cleanslot.oter: true
+      inventoryplus.command.takeoff: true
+      inventoryplus.command.takeoff.other: true
+      inventoryplus.command.takeoffslot: true
+      inventoryplus.command.takeoffslot.oter: true
+  inventoryplus.command.reload:
+    description: Allows use of /InventoryPlus command reload.
+    default: op
+  inventoryplus.command.version:
+    description: Allows use of command /InventoryPlus version.
+    default: op
+  inventoryplus.command.clear:
+    description: Allows use of command /InventoryPlus clear.
+    default: op
+  inventoryplus.command.clear.other:
+    description: Allows use of command /InventoryPlus clear PLAYER.
+    default: op
+  inventoryplus.command.cleanslot:
+    description: Allows use of command /InventoryPlus cleanslot.
+    default: op
+  inventoryplus.command.cleanslot.other:
+    description: Allows use of command /InventoryPlus cleanslot PLAYER.
+    default: op
+  inventoryplus.command.takeoff:
+    description: Allows use of command /InventoryPlus takeoff.
+    default: op
+  inventoryplus.command.takeoff.other:
+    description: Allows use of command /InventoryPlus takeoff PLAYER.
+    default: op
+  inventoryplus.command.takeoffslot:
+    description: Allows use of command /InventoryPlus takeoffslot.
+    default: op
+  inventoryplus.command.takeoffslot.other:
+    description: Allows use of command /InventoryPlus takeoffslot PLAYER.
+    default: op
