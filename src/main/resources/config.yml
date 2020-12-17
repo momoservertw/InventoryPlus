@@ -50,6 +50,11 @@ Player:
     Settings:
       Log: true
     Groups: [ ]
+  Binding_Curse:
+    Enable: true
+    Settings:
+      Log: true
+    Groups: []
 
 Message:
   prefix: "&f[&eInventoryPlus&f] &r"

@@ -22,10 +22,13 @@ public class ConfigPath {
     private boolean inventoryLogZip;
     private boolean inventoryLogClean;
     private boolean inventoryLogTakeOff;
+    private boolean inventoryLogBinding;
     private boolean inventoryClean;
     private boolean inventoryTakeOff;
+    private boolean inventoryBinding;
     private final Map<String, List<String>> invCleanProp = new HashMap<>();
     private final Map<String, List<String>> invTakeOffProp = new HashMap<>();
+    private final Map<String, List<String>> invBindingProp = new HashMap<>();
 
     //  ============================================== //
     //         Setup all configuration.                //
@@ -45,6 +48,7 @@ public class ConfigPath {
         if (inventoryLog) {
             inventoryLogClean = ConfigHandler.getConfig("config.yml").getBoolean("Player.Clean.Settings.Log");
             inventoryLogTakeOff = ConfigHandler.getConfig("config.yml").getBoolean("Player.TakeOff.Settings.Log");
+            inventoryLogBinding = ConfigHandler.getConfig("config.yml").getBoolean("Player.Binding-Curse.Settings.Log");
         }
         inventoryClean = ConfigHandler.getConfig("config.yml").getBoolean("Player.Clean.Enable");
         ConfigurationSection cleanConfig = ConfigHandler.getConfig("config.yml").getConfigurationSection("Player.Clean.Groups");
@@ -61,6 +65,15 @@ public class ConfigPath {
             for (String group : takeOffConfig.getKeys(false)) {
                 if (Utils.isEnable(ConfigHandler.getConfig("config.yml").getString("Player.TakeOff.Groups." + group + ".Enable"), true)) {
                     invTakeOffProp.put(group.toLowerCase(), ConfigHandler.getConfig("config.yml").getStringList("Player.TakeOff.Groups." + group + ".Slots"));
+                }
+            }
+        }
+        inventoryBinding = ConfigHandler.getConfig("config.yml").getBoolean("Player.Binding-Curse.Enable");
+        ConfigurationSection bindingConfig = ConfigHandler.getConfig("config.yml").getConfigurationSection("Player.Binding-Curse.Groups");
+        if (bindingConfig != null) {
+            for (String group : bindingConfig.getKeys(false)) {
+                if (Utils.isEnable(ConfigHandler.getConfig("config.yml").getString("Player.Binding-Curse.Groups." + group + ".Enable"), true)) {
+                    invBindingProp.put(group.toLowerCase(), ConfigHandler.getConfig("config.yml").getStringList("Player.Binding-Curse.Groups." + group + ".Slots"));
                 }
             }
         }
@@ -93,6 +106,10 @@ public class ConfigPath {
         return inventoryLogTakeOff;
     }
 
+    public boolean isInventoryLogBinding() {
+        return inventoryLogBinding;
+    }
+
     public boolean isInventoryClean() {
         return inventoryClean;
     }
@@ -101,11 +118,19 @@ public class ConfigPath {
         return inventoryTakeOff;
     }
 
+    public boolean isInventoryBinding() {
+        return inventoryBinding;
+    }
+
     public Map<String, List<String>> getInvCleanProp() {
         return invCleanProp;
     }
 
     public Map<String, List<String>> getInvTakeOffProp() {
         return invTakeOffProp;
+    }
+
+    public Map<String, List<String>> getInvBindingProp() {
+        return invBindingProp;
     }
 }

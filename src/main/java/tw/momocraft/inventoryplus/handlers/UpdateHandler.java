@@ -1,6 +1,7 @@
 package tw.momocraft.inventoryplus.handlers;
 
 import org.bukkit.command.CommandSender;
+import tw.momocraft.inventoryplus.InventoryPlus;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,10 +10,9 @@ import java.net.URLConnection;
 
 public class UpdateHandler {
 
-    private final String plugin = "inventoryplus";
-    private final int PROJECTID = 85995;
+    private final int PROJECTID = 86452;
 
-    private final String versionExact = tw.momocraft.inventoryplus.InventoryPlus.getInstance().getDescription().getVersion();
+    private final String versionExact = InventoryPlus.getInstance().getDescription().getVersion();
     private final String localeVersion = this.versionExact.split("-")[0];
     private String latestVersion;
 
@@ -25,7 +25,7 @@ public class UpdateHandler {
     public void checkUpdates(final CommandSender sender) {
         if (this.updateNeeded(sender) && this.updatesAllowed) {
             ServerHandler.sendMessage(sender, "&aNew version is available: " + "&ev" + this.latestVersion);
-            ServerHandler.sendMessage(sender, "&ehttps://www.spigotmc.org/resources/" + plugin + "." + PROJECTID + "/history");
+            ServerHandler.sendMessage(sender, "&ehttps://www.spigotmc.org/resources/" + InventoryPlus.getInstance().getName().toLowerCase() + "." + PROJECTID + "/history");
         } else if (this.updatesAllowed) {
             ServerHandler.sendMessage(sender, "&fYou are up to date!");
         }
